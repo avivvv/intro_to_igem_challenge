@@ -11,7 +11,7 @@ MODELS_DIR = os.path.join(PROJECT_ROOT, "models")
 NOTEBOOKS_DIR = os.path.join(PROJECT_ROOT, "notebooks")
 
 # Data parameters
-SEQUENCE_LENGTH = 100  # Length of promoter sequences
+SEQUENCE_LENGTH = 1000  # Length of promoter sequences
 TEST_SIZE = 0.2
 VALIDATION_SIZE = 0.1
 RANDOM_STATE = 42

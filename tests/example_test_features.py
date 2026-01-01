@@ -5,7 +5,7 @@ import numpy as np
 import sys
 sys.path.insert(0, '..')
 
-from src.features.sequence_features import (
+from src.features.example_sequence_features import (
     nucleotide_composition, dinucleotide_features, one_hot_encode
 )
 
