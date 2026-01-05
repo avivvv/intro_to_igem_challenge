@@ -21,6 +21,7 @@ LEARNING_RATE = 0.001
 BATCH_SIZE = 32
 EPOCHS = 50
 EARLY_STOPPING_PATIENCE = 5
+TREE_DEPTH = 5
 
 # Feature extraction
 K_MER_SIZE = 3  # For k-mer feature extraction
